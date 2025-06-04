@@ -1,6 +1,6 @@
 ---
 title: "First Step Into AI: It's Easier Than You Think"
-date: 2025-06-01
+date: 2025-06-04
 permalink: /posts/2025/06/getting-into-ai-its-easier-than-you-think/
 excerpt_separator: <!--more-->
 tags:

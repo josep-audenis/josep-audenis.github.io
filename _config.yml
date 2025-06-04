@@ -13,7 +13,7 @@ title                    : "Josep Audenis"
 title_separator          : "-"
 name                     : &name "Josep Audenis"
 description              : &description "personal description"
-url                      : https://josep-auidenis.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://josep-audenis.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "josep-audenis/josep-audenis.github.io"
 
