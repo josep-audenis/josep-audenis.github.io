@@ -91,4 +91,4 @@ In this post, we’ve laid the groundwork by exploring what supervised learning 
 
 In upcoming posts, we’ll dive deeper and bring these concepts to life with hands-on examples and practical applications. Whether you’re just starting out or looking to sharpen your skills, these examples will give you the practical tools you need to build your own predictive models.
 
-Stay tuned for the next post, where we’ll roll up our sleeves and start building our first supervised learning models!
+Stay tuned for the next posts, where we’ll roll up our sleeves and start building our first supervised learning models!

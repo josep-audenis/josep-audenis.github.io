@@ -52,22 +52,24 @@ Common applications of clustering:
 - **Document organization:** Grouping articles or documents by topic.
 - **Anomaly detection:** Spotting unusual data points that don’t belong to any cluster, which may indicate fraud or errors.
 
-Popular algorithms include K-Means, Hierarchical Clustering, and DBSCAN, each suited for different data types and cluster shapes.
+Popular algorithms include *K-Means*, *Hierarchical Clustering*, and *DBSCAN*, each suited for different data types and cluster shapes.
 
 ### Association Rule Learning: Discovering Relationships and Patterns
 
 Association rule learning is about finding interesting relationships and patterns between variables in large datasets. Instead of grouping data points, it discovers rules that describe how different items or features tend to occur together.
 
-**Classic example: Market Basket Analysis**
+#### Classic example: Market Basket Analysis
 
-Retailers use association rules to find patterns in customer purchases. For example:
+Retailers use association rules to find patterns in customer purchases. 
+
+For example:
 
 - Customers who buy bread and butter often also buy jam.
 - If someone buys diapers, they might also buy baby wipes.
 
 These insights help businesses with product placement, cross-selling, and promotions.
 
-The most well-known algorithm here is the Apriori algorithm, which finds frequent itemsets and generates rules with measures like support, confidence, and lift to quantify the strength of these associations.
+The most well-known algorithm here is the *Apriori* algorithm, which finds frequent itemsets and generates rules with measures like support, confidence, and lift to quantify the strength of these associations.
 
 ### Dimensionality Reduction: Simplifying Complex Data
 
@@ -79,7 +81,7 @@ Why it matters:
 - Removal of noise and redundant features to improve model accuracy.
 - Faster computation and less storage needed.
 
-Common methods include Principal Component Analysis (PCA), t-SNE, and UMAP. These help reveal underlying patterns and structures that might be hidden in complex, multi-dimensional datasets.
+Common methods include *Principal Component Analysis* (*PCA*), *t-SNE*, and *UMAP*. These help reveal underlying patterns and structures that might be hidden in complex, multi-dimensional datasets.
 
 ## What's next?
 
@@ -89,5 +91,4 @@ In this post, we explored the core concepts behind unsupervised learning and int
 
 In upcoming posts, we’ll get hands-on with these techniques. Through practical examples, you’ll gain the skills to confidently use unsupervised learning in your own projects, unlocking insights you never thought possible.
 
-Stay tuned, and get ready to explore the fascinating world of unsupervised learning!
-
+Stay tuned for the next posts, where we’ll roll up our sleeves and start building our first unsupervised learning models!
