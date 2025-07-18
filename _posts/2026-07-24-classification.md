@@ -1,7 +1,7 @@
 ---
 title: "Classification"
-date: 2025-07-24
-permalink: /posts/2025/06//
+date: 2026-07-24
+permalink: /posts/2025/07//
 excerpt: ""
 tags:
   - Supervised Learning

@@ -1,7 +1,7 @@
 ---
 title: "First Step Into AI: It's Easier Than You Think"
 date: 2025-07-14
-permalink: /posts/2025/06/getting-into-ai-its-easier-than-you-think/
+permalink: /posts/2025/07/getting-into-ai-its-easier-than-you-think/
 excerpt: "AI and ML might seem like intimidating worlds of math and code, but they’re far more accessible than most realize. *Why Machines Learn* demystifies the basics, showing that even the most advanced algorithms build on surprisingly simple ideas. Curious how machines learn? Start here!"
 tags:
   - Books

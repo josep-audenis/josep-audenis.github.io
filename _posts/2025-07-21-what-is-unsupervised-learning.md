@@ -1,7 +1,7 @@
 ---
 title: "What's Unsupervised Learning?"
-date: 2025-07-28
-permalink: /posts/2025/06/what-is-unsupervised-learning/
+date: 2025-07-21
+permalink: /posts/2025/07/what-is-unsupervised-learning/
 excerpt: "Unsupervised learning is the secret sauce behind many of today’s most powerful AI tools, but how does it find patterns in data without any labels? In this post, we’ll uncover the magic of clustering, association rules, and dimensionality reduction, and show you how these techniques can transform raw data into deep insights. Ready to unlock the mysteries of your data? Let’s dive in!"
 tags:
   - Unsupervised Learning
@@ -83,7 +83,7 @@ Why it matters:
 
 Common methods include *Principal Component Analysis* (*PCA*), *t-SNE*, and *UMAP*. These help reveal underlying patterns and structures that might be hidden in complex, multi-dimensional datasets.
 
-## What's next?
+<!-- ## What's next?
 
 Unsupervised learning is an exciting branch of machine learning that lets us uncover hidden patterns and relationships in data, all without relying on labeled examples. Whether through clustering, association rule learning, or dimensionality reduction, these techniques empower us to make sense of complex datasets and extract valuable insights.
 
@@ -91,4 +91,4 @@ In this post, we explored the core concepts behind unsupervised learning and int
 
 In upcoming posts, we’ll get hands-on with these techniques. Through practical examples, you’ll gain the skills to confidently use unsupervised learning in your own projects, unlocking insights you never thought possible.
 
-Stay tuned for the next posts, where we’ll roll up our sleeves and start building our first unsupervised learning models!
+Stay tuned for the next posts, where we’ll roll up our sleeves and start building our first unsupervised learning models! -->

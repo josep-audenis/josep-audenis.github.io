@@ -1,7 +1,7 @@
 ---
 title: "What's Supervised Learning?"
 date: 2025-07-17
-permalink: /posts/2025/06/what-is-supervised-learning/
+permalink: /posts/2025/07/what-is-supervised-learning/
 excerpt: "Supervised learning is the powerhouse driving modern AI models — but what exactly is it, and how does it turn data into decisions? In this post, we’ll reveal the difference between classification and regression, and show you how these techniques fuel everything from spam filters to stock predictions! Dive in and learn how to make your data work for you!"
 tags:
   - Supervised Learning
@@ -85,10 +85,10 @@ The choice between classification and regression depends on the question you’r
 
 Both classification and regression follow the same basic supervised learning process: they learn from examples with known outputs (labels) to make predictions on new, unseen data. This is why supervised learning is such a powerful approach in machine learning, it can adapt to a wide variety of tasks as long as you have labeled data to learn from.
 
-## What's next?
+<!-- ## What's next?
 
 In this post, we’ve laid the groundwork by exploring what supervised learning is and the key differences between classification and regression. But there’s so much more to discover!
 
 In upcoming posts, we’ll dive deeper and bring these concepts to life with hands-on examples and practical applications. Whether you’re just starting out or looking to sharpen your skills, these examples will give you the practical tools you need to build your own predictive models.
 
-Stay tuned for the next posts, where we’ll roll up our sleeves and start building our first supervised learning models!
+Stay tuned for the next posts, where we’ll roll up our sleeves and start building our first supervised learning models! -->
