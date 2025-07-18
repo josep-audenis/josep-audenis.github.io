@@ -1,6 +1,6 @@
 ---
 title: "What's Unsupervised Learning?"
-date: 2025-06-23
+date: 2025-07-28
 permalink: /posts/2025/06/what-is-unsupervised-learning/
 excerpt: "Unsupervised learning is the secret sauce behind many of today’s most powerful AI tools, but how does it find patterns in data without any labels? In this post, we’ll uncover the magic of clustering, association rules, and dimensionality reduction, and show you how these techniques can transform raw data into deep insights. Ready to unlock the mysteries of your data? Let’s dive in!"
 tags:
