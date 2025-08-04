@@ -1,6 +1,6 @@
 ---
 title: "Neuroevolutions"
-date: 2025-07-25
+date: 2025-08-04
 permalink: /portfolio/neuroevolutions/
 excerpt: "I set out to explore how Genetic Algorithms, inspired by natural selection, can evolve intelligent behavior in classic reinforcement learning environments. Through three increasingly complex challenges, I built and evolved neural networks from scratch using simple yet powerful evolutionary strategies.\n Wether you're curious about evolutionary computation, preparing for your next machine learning project, or just watching agents go from clueless to competent, this deep dive is for you."
 collection: portfolio
@@ -328,16 +328,6 @@ Training took significantly longer than previous tasks. In the early generations
 	<p style="font-size: 0.85em; text-align: center;"><strong>Figure 9:</strong> Fitness evolution for the BipedalWalker neuroevolution.</p>
 </div>
 
-## Source Code
-
-You can explore the full codebases for each task in the following GitHub repositories:
-
-- [CartPole-v1 Neuroevolution](https://github.com/josep-audenis/neuroevolution-cart-pole)
-- [LunarLander-v3 Neuroevolution](https://github.com/josep-audenis/neuroevolution-lunar-lander)
-- [BipedalWalker-v3 Neuroevolution](https://github.com/josep-audenis/neuroevolution-bipedal-walker)
-
-
-
 ## Reflections on Neuroevolution
 
 Working through these three progressively complex reinforcement learning environments using genetic algorithms has provided me with deep insight into both the power and the limitations of neuroevolutionary strategies.
@@ -385,3 +375,11 @@ This exploration has equipped me with practical tools and conceptual grounding t
 In preparation for my computer engineering thesis on **Quantum Genetic Algorithms**, this project served as a perfect introduction to evolutionary search principles, as well as the challenges of encoding, mutation, and convergence. It also offered a taste of the potential in hybrid learning systems, where differentiable modules can be combined with evolutionary controllers.
 
 More broadly, it reinforced the idea that there is no one-size-fits-all in machine learning. Neuroevolution is not always, by far, the most efficient method, but it's robust, interpretable, and surprisingly effective in complex, rugged fitness landscapes. 
+
+## Source Code
+
+You can explore the full codebases for each task in the following GitHub repositories:
+
+- [CartPole-v1 Neuroevolution](https://github.com/josep-audenis/neuroevolution-cart-pole)
+- [LunarLander-v3 Neuroevolution](https://github.com/josep-audenis/neuroevolution-lunar-lander)
+- [BipedalWalker-v3 Neuroevolution](https://github.com/josep-audenis/neuroevolution-bipedal-walker)
