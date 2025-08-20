@@ -12,7 +12,7 @@ tags:
   - AI
 ---
 
-I recently came across a paper titled **“An AlphaGo Moment for Model Architecture Discovery”**, and while reading it, I couldn’t help but feel a strange sense of déjà vu.
+I recently came across a paper titled ["An AlphaGo Moment for Model Architecture Discovery"](https://arxiv.org/pdf/2507.18074), and while reading it, I couldn’t help but feel a strange sense of déjà vu.
 
 Not because I’ve worked on neural architecture search before, but because the **core strategy used in the paper — evolution instead of gradient descent — was almost exactly what I explored in my [Neuroevolutions project](https://josep-audenis.github.io/portfolio/neuroevolutions/)**.
 
@@ -21,8 +21,6 @@ Sure, the scale and goal are different. They’re evolving architectures for ima
 > **Don’t optimize by gradients. Let evolution guide the search.**
 
 Let’s dive into what this paper does — and why it felt like it was speaking my project’s language.
-
-
 
 ## What’s This Paper About?
 
@@ -77,7 +75,7 @@ But the idea is the same:
 
 ## Gradients? Who Needs ‘Em?
 
-What I found really exciting about both projects — mine and theirs — is this:
+What I found really exciting about both projects is this:
 > **You don’t need gradients to learn.**
 
 In most ML pipelines, gradients and backpropagation are sacred. But evolutionary approaches sidestep all of that.
