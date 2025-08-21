@@ -1,8 +1,8 @@
 ---
-title: "Climbing  the Ladder: Hirearchical Reasoning Models and the Next Step for AI"
+title: "Climbing  the Ladder: Hierarchical Reasoning Models and the Next Step for AI"
 date: 2025-08-14
 permalink: /posts/2025/08/hierarchical-reasoning/
-excerpt: "Flat chains of thougt collapse under complexity. Hierarchical reasoning models propose a new path: structuring thought into levels, more like humans do."
+excerpt: "Flat chains of though collapse under complexity. Hierarchical reasoning models propose a new path: structuring thought into levels, more like humans do."
 tags:
     - Artificial Intelligence
     - Machine Learning
@@ -10,7 +10,7 @@ tags:
     - Hierarchical Thinking  
 ---
 
-In my [last poast](), I wrote about how current reasoning models aren't really thinking, they're reproducing the ***illusion*** of thought. But that raises an obvious question: if flat reasoning collapses, what comes next?
+In my [last post](), I wrote about how current reasoning models aren't really thinking, they're reproducing the ***illusion*** of thought. But that raises an obvious question: if flat reasoning collapses, what comes next?
 
 This new paper, [***Hierarchical Reasoning Models***](https://arxiv.org/pdf/2506.21734), offers one answer: restructure reasoning into layers, not lines. Instead of endlessly stretching a chain of thought, the model climbs a ladder of abstraction, starting broad, breaking things down, and only then dividing into details.
 
@@ -18,15 +18,15 @@ This new paper, [***Hierarchical Reasoning Models***](https://arxiv.org/pdf/2506
 
 If you stop and think about it, hierarchy is everywhere in human thought.
 
-Imagine you're cooking dinner. You din't start bu worrying about the precise angle at which you'll chop the onions. First, you decide the ***menu***. Then youy plan the ***sequence*** of dishes. Only at the lowest level do you focus on individual steps like heating the oil or cutting the onions.
+Imagine you're cooking dinner. You din't start bu worrying about the precise angle at which you'll chop the onions. First, you decide the ***menu***. Then you plan the ***sequence*** of dishes. Only at the lowest level do you focus on individual steps like heating the oil or cutting the onions.
 
-Or take sports. A coach doesn't tell a runnere every single movement of their legs. Instead, they give layered instructions:
+Or take sports. A coach doesn't tell a runner every single movement of their legs. Instead, they give layered instructions:
 
-- **Strategy:** Negative splits, dont go out too fast.
+- **Strategy:** Negative splits, don't go out too fast.
 - **Mid-level tactics:** Push the uphill sections, relax the downhill.
 - **Low-level execution:** Keep cadence steady, breathe every three steps.
 
-If we didn't structure our thought this way, life would be unmanagable. We'd drown in details before getting anything done.
+If we didn't structure our thought this way, life would be unmanageable. We'd drown in details before getting anything done.
 
 AI models, up until now, have been doing exactly that, drowning. TRhey extend chains of thought linearly, without layering, which makes them fragile. This is where hierarchy becomes not just useful, but necessary.
 
@@ -40,11 +40,11 @@ The paper lays out a three-level idea:
 
 1. **High-level reasoning:** Set the broad plan. "Solve the Towers of Hanoi by moving  smaller stacks onto temporary pegs".
 
-2. **Mid-level reasoning:** Break the plan into manageable subgoals. "First, move the top two disks to peg B".
+2. **Mid-level reasoning:** Break the plan into manageable sub-goals. "First, move the top two disks to peg B".
 
 3. **Low-level reasoning:** Carry out the atomic steps. "Move disk 1 from peg A to peg C".
 
-By organizing thought this way, mistajes at the bottom don't automatically topple the whole structure. If a step fails, the mid-level can redirect, and the high-level still keeps the bi picture intact.
+By organizing thought this way, mistakes at the bottom don't automatically topple the whole structure. If a step fails, the mid-level can redirect, and the high-level still keeps the bi picture intact.
 
 ## Why This Feels Like a Game-Changer
 
@@ -52,7 +52,7 @@ The promise here is that hierarchy could solve the very weaknesses exposed in "i
 
 - **Fixation:** Instead of spiraling deeper into a wrong step, the model can reset at the right level.
 - **Overthinking:** By keeping details bounded to lower layers, higher layers don't waste effort micromanaging.
-- **Scaling** As complexity rises, models don't just produce longer chains, they add ***more structure***, like himans do when facing harder problems.
+- **Scaling** As complexity rises, models don't just produce longer chains, they add ***more structure***, like humans do when facing harder problems.
 
 It's like moving from a single train track to a railway network: the train can reroute when needed, not just crash if it hits a dead end.
 
@@ -71,7 +71,7 @@ Hierarchy doesn't automatically mean intelligence. But it does open a door.
 
 When I first played with reasoning models, I saw them wander off track constantly, like a hiker with no map, making the trail no longer than it needed to be. Flat reasoning feels powerful on easy problems or tasks, but breaks down on the harder ones.
 
-Hierarchy feels like the right correction. It mirrors how we ***actually*** think, how we manage our own cognitice limits. It doesn't guarantee sucess, but it introduces structure where before there was sprawl.
+Hierarchy feels like the right correction. It mirrors how we ***actually*** think, how we manage our own cognitive limits. It doesn't guarantee success, but it introduces structure where before there was sprawl.
 
 THis isn't the leap of "true AI thinking", but it's a smart pivot. If models can't think in long fragile chains, maybe they can think in nested ladders instead.
 

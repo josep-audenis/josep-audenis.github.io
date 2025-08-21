@@ -11,7 +11,7 @@ tags:
 
 In today's fast-moving scientific landscape, keeping up with the latest publications can feel like chasing a runaway train. From preprints to journal articles across multiple disciplines, there's simply too much content to track manually. That's why I created [**Research Radar**](https://github.com/josep-audenis/research-radar), a tool designed to help researchers, students, and enthusiasts stay up to date with the latest findings in their field.
 
-Before building Research Radar, I found muself constantly searching multiple journal websites, newsletters, and Reddit forums trying to find new and interesting papers, an exhausting and inefficient process. Important papers could easily slip through the cracks, and organizing relevant publications for later reading was cumbersome. How much more would I learn if all those hours looking for papers would have been spent in studing them instead of searching for them in recondit forums in the internet.
+Before building Research Radar, I found myself constantly searching multiple journal websites, newsletters, and Reddit forums trying to find new and interesting papers, an exhausting and inefficient process. Important papers could easily slip through the cracks, and organizing relevant publications for later reading was cumbersome. How much more would I learn if all those hours looking for papers would have been spent in studying them instead of searching for them in recondite forums in the internet.
 
 ## Relevant Features and Future Improvements
 
@@ -23,7 +23,7 @@ Research Radar is a lightweight, yet powerful tool that consolidates research pu
 At the moment it's quite simple but future implementations will include:
 
 1. **Daily/Weekly Digests:** Research Radar will periodically scan for new and relevant to you papers and send an email to your inbox with a digest of new papers.
-2. **Advance Filtering:** Filter by authors or full paper keywrod search.
+2. **Advance Filtering:** Filter by authors or full paper keywords search.
 3. **Export & Download:** Download papers or export them to your reference manager.
 
 ## How it Works
@@ -35,7 +35,7 @@ At its core, Research Radar checks for ArXiv feed for all publications and filte
 - **Stay Up-to-Date:** Never miss important publications in your domain.
 - **Save Time:** Skip sifting through irrelevant papers.
 - **Increase Productivity:** Focus on reading and research rather than searching.
-- **Discover Trends:** Identify emerging topcis and shifts in your field early.
+- **Discover Trends:** Identify emerging topics and shifts in your field early.
 
 ## Example Use Case
 
@@ -43,6 +43,6 @@ Imagine you are a data scientist interested in **offline reinforcement learning*
 
 ---
 
-If keeping up with research feels overwhelming, give Research Radar try. Stay informed, save time, and focus on waht truly matters: creating, experimenting, and contributing to your field
+If keeping up with research feels overwhelming, give Research Radar try. Stay informed, save time, and focus on what truly matters: creating, experimenting, and contributing to your field
 
 [Explore Research Radar](https://github.com/josep-audenis/research-radar)
