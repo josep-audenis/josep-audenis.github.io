@@ -4,7 +4,7 @@ date: 2025-07-31
 permalink: /posts/2025/07/data-the-fuel-of-ml/
 excerpt: "Good models start with good data. In this post, we explore why data quality is often more important than algorithm choice, what makes data 'dirty,' and how to clean, prepare, and split your datasets for machine learning success."
 tags:
-  - ML
+  - Machine Learning
   - Data Preparation
   - Data Quality
   - Data Cleaning

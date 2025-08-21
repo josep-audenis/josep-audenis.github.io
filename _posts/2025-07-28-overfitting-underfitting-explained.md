@@ -6,7 +6,7 @@ excerpt: "Why do machine learning models sometimes perform great on training dat
 tags:
   - Overfitting
   - Underfitting
-  - ML
+  - Machine Learning
   - Model Evaluation
 ---
 

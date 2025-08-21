@@ -5,7 +5,7 @@ permalink: /posts/2025/07/what-is-supervised-learning/
 excerpt: "Supervised learning is the powerhouse driving modern AI models — but what exactly is it, and how does it turn data into decisions? In this post, we’ll reveal the difference between classification and regression, and show you how these techniques fuel everything from spam filters to stock predictions! Dive in and learn how to make your data work for you!"
 tags:
   - Supervised Learning
-  - ML
+  - Machine Learning
   - Classification
   - Regression
 ---

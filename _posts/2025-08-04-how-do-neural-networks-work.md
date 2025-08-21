@@ -6,9 +6,9 @@ excerpt: "Neural networks power everything from voice assistants to image recogn
 tags:
   - Neural Networks
   - Deep Learning
-  - ML
+  - Machine Learning
   - Intuition
-  - AI
+  - Artificial Intelligence
 ---
 
 Neural networks are the models behind some of the most mind-blowing achievements in AI today, translating languages, recognizing faces, driving cars, and even generating human-like text. But for many beginners, the moment neural networks come up, so do complex diagrams, scary math, and dense jargon.

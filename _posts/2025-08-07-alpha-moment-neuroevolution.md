@@ -9,7 +9,7 @@ tags:
   - Reinforcement Learning
   - Neural Architecture Search
   - Deep Learning
-  - AI
+  - Artificial Intelligence
 ---
 
 I recently came across a paper titled ["An AlphaGo Moment for Model Architecture Discovery"](https://arxiv.org/pdf/2507.18074), and while reading it, I couldn’t help but feel a strange sense of déjà vu.
