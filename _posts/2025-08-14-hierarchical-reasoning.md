@@ -67,7 +67,7 @@ There's also a risk of hierarchy becoming just another illusion. If each level i
 
 Hierarchy doesn't automatically mean intelligence. But it does open a door.
 
-## My Personal Take: This Is How Progress Looks
+## This Is How Progress Looks
 
 When I first played with reasoning models, I saw them wander off track constantly, like a hiker with no map, making the trail no longer than it needed to be. Flat reasoning feels powerful on easy problems or tasks, but breaks down on the harder ones.
 

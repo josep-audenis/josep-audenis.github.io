@@ -5,8 +5,8 @@ permalink: /posts/2025/07/what-is-reinforcement-learning/
 excerpt: "Reinforcement learning is the secret behind how AI learns to play games, drive cars, and control robots, but how does it work? In this post, we'll break down the key ideas of agents, environments, rewards, and policies to show you how machines learn through trial and error. Ready to level up your AI knowledge? Let's dive in!"
 tags:
   - Reinforcement Learning
-  - ML
-  - AI
+  - Machine Learning
+  - Artificial Intelligence
   - Agents
   - Rewards
   - Environments
