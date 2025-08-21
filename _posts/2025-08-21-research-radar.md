@@ -15,7 +15,7 @@ Before building Research Radar, I found myself constantly searching multiple jou
 
 ## Relevant Features and Future Improvements
 
-Research Radar is a lightweight, yet powerful tool that consolidates research publications from ArXiv. Its core features include:
+Research Radar is a lightweight, yet powerful tool that consolidates research publications from [ArXiv](https://arxiv.org/). Its core features include:
 
 1. **Keyword & Topic Filtering:** Define keywords, or topics you care about, and get only the publications that match your interests.
 2. **Relevant Store:** Store relevant publications for later reading.
@@ -28,7 +28,7 @@ At the moment it's quite simple but future implementations will include:
 
 ## How it Works
 
-At its core, Research Radar checks for ArXiv feed for all publications and filtering out those papers that are not of your interest. It takes into account you preferences through a **json** file where the user can check which fields are of their interest and which keywords do they look for. These keywords will be searched for in the title and the abstract of the paper, if they match, it will he added to the list of relevant papers.
+At its core, Research Radar checks for [ArXiv RSS feed](https://info.arxiv.org/help/rss.html) for all publications and filtering out those papers that are not of your interest. It takes into account you preferences through a **json** file where the user can check which fields are of their interest and which keywords do they look for. These keywords will be searched in the title and the abstract of the paper, if they match, it will he added to the list of relevant papers.
 
 ## Benefits
 
