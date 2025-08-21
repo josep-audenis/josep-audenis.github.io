@@ -39,7 +39,7 @@ At its core, Research Radar checks for ArXiv feed for all publications and filte
 
 ## Example Use Case
 
-Imagine you are a data scientist interested in **graph nerual networks**. Instead of manually checking multiple ArXiv categories, Research Radar filters for you keywords and sends you a digest. Now every morning it only takes you 10 minutes to read through all new papers abstracts instead of spending hours looking for the papers. Now you can spend more time implementing ideas rather than hunting for them.
+Imagine you are a data scientist interested in **offline reinforcement learning**. Instead of manually checking multiple ArXiv categories, Research Radar filters for you keywords and sends you a digest. Now every morning it only takes you 10 minutes to read through all new papers abstracts instead of spending hours looking for the papers. Now you can spend more time implementing ideas rather than hunting for them.
 
 ---
 
