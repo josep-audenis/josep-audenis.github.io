@@ -29,7 +29,7 @@ author:
   location         : "Barcelona, Catalonia, Spain"
   employer         : "La Salle URL"
   uri              : # URL
-  email            : "pepaudenis@gmail.com" 
+  email            : #"pepaudenis@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -46,7 +46,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "josep-audenis"
-  kaggle           : "josepaudenis"
+  kaggle           : #"josepaudenis"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media

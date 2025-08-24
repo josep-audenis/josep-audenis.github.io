@@ -17,7 +17,7 @@ Answering all of this requires on thing: a way to measure the contribution of da
 
 ## Enter Data Shapley
 
-The most principled approach so far has been **Data Shapley**. Borrowed from cooperative game theory, Shapley values provide a fair way of splitting total "credit" among participants, in this case among training data points. If each data point were a "player", the Shpaley value assigns a score reflecting how much that point helps improve model performance.
+The most principled approach so far has been **Data Shapley**. Borrowed from cooperative game theory, Shapley values provide a fair way of splitting total "credit" among participants, in this case among training data points. If each data point were a "player", the Shapley value assigns a score reflecting how much that point helps improve model performance.
 
 
 The beauty is that Shapley values satisfy fairness axioms:
@@ -29,7 +29,7 @@ In theory, this is exactly what we want. In practice, it breaks down. Computing 
 
 ## The New Idea: In-Run Data Shapley
 
-A recent paper [*"Data Shapley in One Training Run"*]() introduces a way around these limitations. The authors purpose ***In-Run Data Shapley***, which computes data contributions during a single training run, without retraining.
+A recent paper [*"Data Shapley in One Training Run"*](https://arxiv.org/pdf/2406.11011?) introduces a way around these limitations. The authors purpose ***In-Run Data Shapley***, which computes data contributions during a single training run, without retraining.
 
 The insight is simple but powerful: since deep learning uses iterative optimization (SGD for example) each step is small enough that its effect can be approximated using Taylor expansions of the loss function.
 
