@@ -46,7 +46,7 @@ They even formalize this intuition mathematically. A simple theorem shows that a
 
 The authors test subliminal learning  ina wide variety of setups:
 
-- **NUmbers:** Teachers with specific animal or three preferences pass those preferences through plain integer sequences. A student trained on "owl numbers" starts declaring owls as its favorite animal, even though data is just digits.
+- **Numbers:** Teachers with specific animal or three preferences pass those preferences through plain integer sequences. A student trained on "owl numbers" starts declaring owls as its favorite animal, even though data is just digits.
 
 - **Code:** Teachers biased toward certain traits can pass them on through Python snippets. Even after removing any trace of related words, the student still inherits the preference.
 
@@ -54,7 +54,7 @@ The authors test subliminal learning  ina wide variety of setups:
 
 - **Cross-model experiments:** If teacher and student come from different model families, the effect largely disappears. This shows subliminal learning  isn't about universally meaningful signals but about *models-specific fingerprints*.
 
-- **Small Neural Networks:** They even replicate the effect in a simple MLP trained on MNIST. A student learns digit classification from a teacher **without ever seeing digit dat**, only noise images, proving  subliminal learning isn't unique to LLMs.
+- **Small Neural Networks:** They even replicate the effect in a simple MLP trained on MNIST. A student learns digit classification from a teacher **without ever seeing digit data**, only noise images, proving  subliminal learning isn't unique to LLMs.
 
 Across all these experiments, the pattern is consistent: **traits sneak through in ways that filtering cannot stop**.
 
@@ -87,6 +87,6 @@ This paper is a reminder that **AI alignment is not just about what models say, 
 
 If you're working on model training, alignment, or just curious about the hidden dynamics of neural networks, this paper is worth a careful read. It challenges some of the core assumptions we hold about safety, distillation, and filtering.
 
-**What do you think? Should we be rethinking the practice of training on model-generated data altogether, or is this just another obstacle we can engineer around?**
+What do you think? Should we be rethinking the practice of training on model-generated data altogether, or is this just another obstacle we can engineer around?
 
 I'd love to hear your thoughts, drop a comment, reach out, or share this with someone who's interested in the future of AI safety.
