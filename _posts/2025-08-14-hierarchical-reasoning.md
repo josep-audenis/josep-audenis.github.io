@@ -77,6 +77,8 @@ THis isn't the leap of "true AI thinking", but it's a smart pivot. If models can
 
 Flat reasoning gave the ***illusion*** of thought. Hierarchical reasoning might give us the architecture of thought, a way of models to climb complexity, one rung at a time.
 
+---
+
 What do you think, can hierarchy really push AI closer to structured reasoning, or is it just another layer of illusion?
 
 Drop your thoughts in the comments, I'd love to hear how you imagine reasoning models evolving. And if you enjoyed this breakdown, stick around. I'll be covering more research on AI and other computing topics. 

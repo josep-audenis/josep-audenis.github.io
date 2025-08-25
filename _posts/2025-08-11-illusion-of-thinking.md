@@ -71,4 +71,6 @@ But this paper is a reminder: **the thinking is a performance, not a process**. 
 
 That doesn't make them useless. Far from it. But it does mean we should adjust our expectations. Treat their reasoning like a magic trick: enjoy the illusion as in a magic trick, but don't mistake it for real thinking.
 
+---
+
 What do you think? Are we giving too much credit to AI models when we call what they do "thinking"? Drop your thoughts in the comments, I'd love to hear if you've spotted the illusion on your own use of these tools.

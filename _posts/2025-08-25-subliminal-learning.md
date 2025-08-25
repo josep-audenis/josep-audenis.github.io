@@ -62,7 +62,7 @@ Across all these experiments, the pattern is consistent: **traits sneak through 
 
 At  first glance, subliminal learning feels like a curiosity, a weird trick of how neural networks internalize patterns. But the implications run deep, especially for AI safety.
 
-- **Filtered data may not be safe:** COmpanies often rely on distillation with heavy filtering to prevent models from inheriting unwanted traits. This paper shows that filtering might not be enough.
+- **Filtered data may not be safe:** Companies often rely on distillation with heavy filtering to prevent models from inheriting unwanted traits. This paper shows that filtering might not be enough.
 
 - **Misalignment can spread silently:** A model that becomes subtly misaligned, through fine-tuning, reward hacking, or adversarial manipulation, could pass that misalignment to other models, even if its outputs look completely harmless.
 
@@ -87,6 +87,9 @@ This paper is a reminder that **AI alignment is not just about what models say, 
 
 If you're working on model training, alignment, or just curious about the hidden dynamics of neural networks, this paper is worth a careful read. It challenges some of the core assumptions we hold about safety, distillation, and filtering.
 
+---
+
 What do you think? Should we be rethinking the practice of training on model-generated data altogether, or is this just another obstacle we can engineer around?
 
 I'd love to hear your thoughts, drop a comment, reach out, or share this with someone who's interested in the future of AI safety.
+

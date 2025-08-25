@@ -1,6 +1,6 @@
 ---
 title: "Less is More: Accelerating AI with Advanced Data Strategies"
-date: 2025-08-28
+date: 2025-09-04
 permalink: /posts/2025/08/less-is-more-accelerating-ai/
 excerpt: "Insights from the BSC AI Factory talked with NVIDIA researchers on making AI leaner, faster, and more data-savvy. A deep dive into why smarter data beats bigger data."
 tags:

@@ -81,6 +81,8 @@ It also ties back to a theme I've been circling around lately: AI progress isn't
 
 The future of AI might not come from brute force. It might come from teaching models to break big problems into small pieces, and then stack those pieces into something greater. Just like we humans do.
 
+---
+
 What do you think? Can teaching models to chunk like humans really help them navigate complexity, or is it just another clever trick? 
 
 Drop your thoughts in the comments, I'd love to hear your take. And if you found this exploration of dynamic chunking interesting, stick around, theres more AI research to unpack, and I'll keep breaking it down, one chunk at a time.
