@@ -35,7 +35,7 @@ Together, these modifications make the generator more reliable, the discriminato
 
 Once the dataset has been augmented with high-quality synthetic fraud samples, the next step is training a classifier. Here the authors used **PyCarets AutoML framework**, which systematically evaluates a wide variety of models and selects the best. In their experiments, **LightGBM** emerged as the top choice.
 
-When trained on the R-GAN augmented dataset, LightGBM achieved outstanding results: an **accuracy** of `99.5%`, a **precision** of `100%` (no false alarms), and a **recall** of `99%` (almost all fraud cases detected). The resulting **F1-score** of `99.5%` shows that the model did not have to trade precision for recall, a balance that earlier methods struggled with.
+When trained on the R-GAN augmented dataset, LightGBM achieved outstanding results: an **accuracy** of **99.5%**, a **precision** of **100.0%** (no false alarms), and a **recall** of **99.0%** (almost all fraud cases detected). The resulting **F1-score** of **99.5%** shows that the model did not have to trade precision for recall, a balance that earlier methods struggled with.
 
 Another important element is interpretability. In financial applications, it is enough for a model to be accurate? It must also be explainable. A bank cannot simply tell a customer that their transaction was flagged as fraud without providing a reason. To address this, the authors integrated **Shapley Additive Explanations (SHAP)**. SHAP values break down each prediction and show which features contributed most to the decision, allowing analysts to understand why a transaction was considered suspicious. This transparency is crucial for compliance, trust, and real-world adoption.
 
