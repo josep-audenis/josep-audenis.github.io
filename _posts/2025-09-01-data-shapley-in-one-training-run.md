@@ -87,5 +87,7 @@ We've long known that ***"better data beats bigger models"***, but measuring *wh
 
 --- 
 
-What do you think? Should models start accounting for data contributions in real time, or is this just an academic curiosity that won't make it into practice? Drop your thoughts in the comments, I'd love to hear how you see data attribution shaping  the future of AI.
+What do you think? Should models start accounting for data contributions in real time, or is this just an academic curiosity that won't make it into practice? 
+
+Drop your thoughts in the comments, I'd love to hear how you see data attribution shaping  the future of AI.
 
