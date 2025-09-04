@@ -15,7 +15,7 @@ Last mont, , I had the chance to attend a talk at the Barcelona Supercomputing C
 
 The session, title [***"Less is More: Accelerating AI with Advanced Data Strategies"***](https://youtu.be/Yrxa6eeQXx8?si=zoowDsMtfxI64yFZ), touched on something that feels increasingly urgent in today's AI landscape: the recognition that **bigger datasets and larges models aren't always the optimal path forward**. Instead, the researchers argued, we can achieve *more with less*, if we learn to be smarter about how data is curated, filtered, and fed into training pipelines.
 
-## Setting the Stage: The Problem with Scale-at-All-Costs
+## Setting the Stage
 
 Over the past few years, the dominant trend has been simple: collect more data, train bigger models, and scale up compute. This has worked remarkably well in pushing forward the capabilities of large language models, diffusion models, and beyond.
 
@@ -96,9 +96,6 @@ For anyone working  in machine learning, whether in academia, startups, or large
 
 ---
 
-What do you thin about the "less is more" philosophy in AI?
-
-- Have you tried techniques like adaptive sampling or curriculum learning in your own work?
-- Do you believe data-centric training could become standard practice, or will brute-force scaling remain dominant?
+What do you thin about the ***"less is more"*** philosophy in AI? Have you tried techniques like adaptive sampling or curriculum learning in your own work? Do you believe data-centric training could become standard practice, or will brute-force scaling remain dominant?
 
 I'd love to hear your thoughts, drop a comment , share your experiences, or let's start a conversation about building a more efficient AI future.
