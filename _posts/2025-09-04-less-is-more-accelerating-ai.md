@@ -1,8 +1,8 @@
 ---
 title: "Less is More: Accelerating AI with Advanced Data Strategies"
 date: 2025-09-04
-permalink: /posts/2025/08/less-is-more-accelerating-ai/
-excerpt: "Insights from the BSC AI Factory talked with NVIDIA researchers on making AI leaner, faster, and more data-savvy. A deep dive into why smarter data beats bigger data."
+permalink: /posts/2025/09/less-is-more-accelerating-ai/
+excerpt: "Insights from the BSC AI Factory talked with NVIDIA researchers on making AI leaner, faster, and more data-savy. A deep dive into why smarter data beats bigger data."
 tags:
     - Artificial Intelligence
     - Data Efficiency
@@ -11,7 +11,7 @@ tags:
     - Machine Learning
 ---
 
-Last mont, , I had the chance to attend a talk at the Barcelona Supercomputing Center (BSC), where NVIDIA researchers Nadine Change and José M. Álvarez presented their work on **data-centric strategies for accelerating AI**.
+Last mont, I had the chance to attend a talk at the Barcelona Supercomputing Center (BSC), where NVIDIA researchers Nadine Change and José M. Álvarez presented their work on **data-centric strategies for accelerating AI**.
 
 The session, title [***"Less is More: Accelerating AI with Advanced Data Strategies"***](https://youtu.be/Yrxa6eeQXx8?si=zoowDsMtfxI64yFZ), touched on something that feels increasingly urgent in today's AI landscape: the recognition that **bigger datasets and larges models aren't always the optimal path forward**. Instead, the researchers argued, we can achieve *more with less*, if we learn to be smarter about how data is curated, filtered, and fed into training pipelines.
 
@@ -27,7 +27,7 @@ But this approach also comes with growing downsides:
 
 The BSC talk addressed these issues head-on asking: *what if smarter data management could give us faster, cheaper, and even better AI?*
 
-## Core Idea: Data as the First-Class Citizen
+## Core Idea
 
 Instead of treating  datasets as a static resource, the NVIDIA researchers framed them as **dynamic, adaptable components of the training loop**. The central thesis was clear
 

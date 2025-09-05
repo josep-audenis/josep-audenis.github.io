@@ -1,7 +1,7 @@
 ---
 title: "Data Shapley in One Training Run: Measuring Data Contribution at Scale"
 date: 2025-09-01
-permalink: /posts/2025/08/data-shapley-in-one-training-run/
+permalink: /posts/2025/09/data-shapley-in-one-training-run/
 excerpt: "A new paper introduces In-Run Data Shapley, a scalable method to measure how much each data point contributes to training a specific model without the prohibitive cost of retraining."
 tags:
     - Machine Learning
