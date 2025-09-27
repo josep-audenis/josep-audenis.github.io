@@ -10,9 +10,9 @@ tags:
     - Hierarchical Thinking  
 ---
 
-In my [last post](), I wrote about how current reasoning models aren't really thinking, they're reproducing the ***illusion*** of thought. But that raises an obvious question: if flat reasoning collapses, what comes next?
+In my <a href="https://josep-audenis.github.io/posts/2025/08/hierarchical-reasoning/" target="_blank">last post</a>, I wrote about how current reasoning models aren't really thinking, they're reproducing the ***illusion*** of thought. But that raises an obvious question: if flat reasoning collapses, what comes next?
 
-This new paper, [***Hierarchical Reasoning Models***](https://arxiv.org/pdf/2506.21734), offers one answer: restructure reasoning into layers, not lines. Instead of endlessly stretching a chain of thought, the model climbs a ladder of abstraction, starting broad, breaking things down, and only then dividing into details.
+This new paper, <a href="https://arxiv.org/pdf/2506.21734" target="_blank"><strong><em>"Hierarchical Reasoning Models"</strong></em></a>, offers one answer: restructure reasoning into layers, not lines. Instead of endlessly stretching a chain of thought, the model climbs a ladder of abstraction, starting broad, breaking things down, and only then dividing into details.
 
 ## Why Hierarchies Matter (and Why We Already Use Them)
 

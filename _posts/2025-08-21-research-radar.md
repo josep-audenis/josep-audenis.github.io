@@ -9,13 +9,13 @@ tags:
     - Academic
 ---
 
-In today's fast-moving scientific landscape, keeping up with the latest publications can feel like chasing a runaway train. From preprints to journal articles across multiple disciplines, there's simply too much content to track manually. That's why I created [**Research Radar**](https://github.com/josep-audenis/research-radar), a tool designed to help researchers, students, and enthusiasts stay up to date with the latest findings in their field.
+In today's fast-moving scientific landscape, keeping up with the latest publications can feel like chasing a runaway train. From preprints to journal articles across multiple disciplines, there's simply too much content to track manually. That's why I created <a href="https://github.com/josep-audenis/research-radar" target="_blank"><strong>Research Radar</strong></a>, a tool designed to help researchers, students, and enthusiasts stay up to date with the latest findings in their field.
 
 Before building Research Radar, I found myself constantly searching multiple journal websites, newsletters, and Reddit forums trying to find new and interesting papers, an exhausting and inefficient process. Important papers could easily slip through the cracks, and organizing relevant publications for later reading was cumbersome. How much more would I learn if all those hours looking for papers would have been spent in studying them instead of searching for them in recondite forums in the internet.
 
 ## Relevant Features and Future Improvements
 
-Research Radar is a lightweight, yet powerful tool that consolidates research publications from [arXiv](https://arxiv.org/). Its core features include:
+Research Radar is a lightweight, yet powerful tool that consolidates research publications from <a href="https://arxiv.org/" target="_blank">arXiv</a>. Its core features include:
 
 1. **Keyword & Topic Filtering:** Define keywords, or topics you care about, and get only the publications that match your interests.
 2. **Relevant Store:** Store relevant publications for later reading.
@@ -28,7 +28,7 @@ At the moment it's quite simple but future implementations will include:
 
 ## How it Works
 
-At its core, Research Radar checks for [arXiv RSS feed](https://info.arxiv.org/help/rss.html) for all publications and filtering out those papers that are not of your interest. It takes into account you preferences through a **json** file where the user can check which fields are of their interest and which keywords do they look for. These keywords will be searched in the title and the abstract of the paper, if they match, it will he added to the list of relevant papers.
+At its core, Research Radar checks for <a href="https://info.arxiv.org/help/rss.html" target="_blank">arXiv RSS feed</a> for all publications and filtering out those papers that are not of your interest. It takes into account you preferences through a **json** file where the user can check which fields are of their interest and which keywords do they look for. These keywords will be searched in the title and the abstract of the paper, if they match, it will he added to the list of relevant papers.
 
 ## Benefits
 

@@ -9,7 +9,7 @@ tags:
     - Reasoning Models  
 ---
 
-When you read an answer from a modern AI, it feels like the model is ***"thinking"***. The step-by-step reasoning, the self-reflection, the way it works through puzzles, it mimics human thought almost uncannily. But a new paper from Apple researchers, [***The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem COmplexity***](https://arxiv.org/pdf/2506.06941?), makes one thing clear: **models aren't actually thinking**.
+When you read an answer from a modern AI, it feels like the model is ***"thinking"***. The step-by-step reasoning, the self-reflection, the way it works through puzzles, it mimics human thought almost uncannily. But a new paper from Apple researchers, <a href="https://arxiv.org/pdf/2506.06941?" target="_blank"><strong><em>"The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem COmplexity"</strong></em></a>, makes one thing clear: **models aren't actually thinking**.
 
 Instead, they're generating reasoning-shaped text. And when we probe them with controlled environments like Towers of Hanoi, Checker Jumping, River Crossing, and Blocks World, the illusion cracks.
 

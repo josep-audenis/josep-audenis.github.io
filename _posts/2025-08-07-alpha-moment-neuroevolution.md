@@ -12,9 +12,9 @@ tags:
   - Artificial Intelligence
 ---
 
-I recently came across a paper titled ["An AlphaGo Moment for Model Architecture Discovery"](https://arxiv.org/pdf/2507.18074), and while reading it, I couldn’t help but feel a strange sense of déjà vu.
+I recently came across a paper titled <a href="https://arxiv.org/pdf/2507.18074" target="_blank"><strong><em>"An AlphaGo Moment for Model Architecture Discovery"</em></strong></a>, and while reading it, I couldn’t help but feel a strange sense of déjà vu.
 
-Not because I’ve worked on neural architecture search before, but because the **core strategy used in the paper — evolution instead of gradient descent — was almost exactly what I explored in my [Neuroevolutions project](https://josep-audenis.github.io/portfolio/neuroevolutions/)**.
+Not because I’ve worked on neural architecture search before, but because the **core strategy used in the paper — evolution instead of gradient descent — was almost exactly what I explored in my** <a href="https://josep-audenis.github.io/portfolio/neuroevolutions/" target="_blank"><strong>Neuroevolutions project</strong></a>.
 
 Sure, the scale and goal are different. They’re evolving architectures for image and language models; I evolved policies to solve reinforcement learning environments. But underneath both is the same idea:
 
@@ -54,9 +54,9 @@ It’s kind of like a genetic breeding ground for neural networks — but instea
 ## This Felt… Familiar
 
 When I was building my Neuroevolutions project, I applied genetic algorithms to evolve neural network policies for reinforcement learning environments like:
-- [CartPole-v1](https://github.com/josep-audenis/neuroevolution-cart-pole)
-- [LunarLander-v3](https://github.com/josep-audenis/neuroevolution-lunar-lander)
-- [BipedalWalker-v3](https://github.com/josep-audenis/neuroevolution-bipedal-walker)
+- <a href="https://github.com/josep-audenis/neuroevolution-cart-pole" target="_blank"><strong>CartPole-v1</strong></a>
+- <a href="https://github.com/josep-audenis/neuroevolution-lunar-lander" target="_blank"><strong>LunarLander-v3</strong></a>
+- <a href="https://github.com/josep-audenis/neuroevolution-bipedal-walker" target="_blank"><strong>BipedalWalker-v3</strong></a>
 
 My networks were **simple feedforward models**, and instead of optimizing them with backpropagation, I used:
 - Random initialization of weights
@@ -117,9 +117,9 @@ But in both cases, the heart of the project is the same:
 
 If you're curious, you can check out the three environments I tackled and the genetic algorithm framework I built:
 
-- [CartPole Neuroevolution Repo](https://github.com/josep-audenis/neuroevolution-cart-pole)
-- [LunarLander Neuroevolution Repo](https://github.com/josep-audenis/neuroevolution-lunar-lander) 
-- [BipedalWalker Neuroevolution Repo](https://github.com/josep-audenis/neuroevolution-bipedal-walker)
+- <a href="https://github.com/josep-audenis/neuroevolution-cart-pole" target="_blank"><strong>CartPole Neuroevolution Repo</strong></a>
+- <a href="https://github.com/josep-audenis/neuroevolution-lunar-lander" target="_blank"><strong>LunarLander Neuroevolution Repo</strong></a> 
+- <a href="https://github.com/josep-audenis/neuroevolution-bipedal-walker" target="_blank"><strong>BipedalWalker Neuroevolution Repo</strong></a> 
 
 ---
 

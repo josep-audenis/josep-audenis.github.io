@@ -13,7 +13,7 @@ tags:
 
 If you've ever tried to memorize a phone number, you probably didn't do it one digit at a time: 6-2-9-1-3-8-... is difficult to hold in your head, but 629-138-... is suddenly manageable. That's chinking, the way humans compress information into meaningful units.
 
-Now imagine trying to teach AI models todo the same. That's exactly what the new paper [***Dynamic Chunking for End-to-End Hierarchical Sequence Modeling***](https://arxiv.org/pdf/2507.07955) sets out to tackle. 
+Now imagine trying to teach AI models todo the same. That's exactly what the new paper <a href="https://arxiv.org/pdf/2507.07955" target="_blank"><strong><em>"Dynamic Chunking for End-to-End Hierarchical Sequence Modeling"</strong></em></a> sets out to tackle. 
 
 ## The Trouble with Endless Streams
 

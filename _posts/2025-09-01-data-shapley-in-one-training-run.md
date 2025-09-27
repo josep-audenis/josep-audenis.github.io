@@ -29,7 +29,7 @@ In theory, this is exactly what we want. In practice, it breaks down. Computing 
 
 ## The New Idea: In-Run Data Shapley
 
-A recent paper [*"Data Shapley in One Training Run"*](https://arxiv.org/pdf/2406.11011?) introduces a way around these limitations. The authors purpose ***In-Run Data Shapley***, which computes data contributions during a single training run, without retraining.
+A recent paper <a href="https://arxiv.org/pdf/2406.11011?" target="_blank"><strong><em>"Data Shapley in One Training Run"</em></strong></a> introduces a way around these limitations. The authors purpose ***In-Run Data Shapley***, which computes data contributions during a single training run, without retraining.
 
 The insight is simple but powerful: since deep learning uses iterative optimization (SGD for example) each step is small enough that its effect can be approximated using Taylor expansions of the loss function.
 

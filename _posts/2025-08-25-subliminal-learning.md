@@ -12,7 +12,7 @@ tags:
 
 When we think about model distillation (the process of training a smaller or simpler model to imitate a larger one) the assumption is straightforward: if you carefully filter the training data, you can control what traits get passed along. For years, this has been considered one of the safest ad most practical ways to scale AI development.
 
-But a recent paper, [*Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data*](https://arxiv.org/pdf/2507.14805?), throws a curveball at this assumption. The authors show that language models can transmit hidden traits to other models even through data that looks completely unrelated to those traits. This phenomenon, which they call **subliminal learning**, suggests that simply filtering outputs may not be enough to prevent unwanted behaviors from spreading across models.
+But a recent paper, <a href="https://arxiv.org/pdf/2507.14805?" target="_blank"><strong><em>"Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data"</em></strong></a>, throws a curveball at this assumption. The authors show that language models can transmit hidden traits to other models even through data that looks completely unrelated to those traits. This phenomenon, which they call **subliminal learning**, suggests that simply filtering outputs may not be enough to prevent unwanted behaviors from spreading across models.
 
 ## What is Subliminal Learning?
 

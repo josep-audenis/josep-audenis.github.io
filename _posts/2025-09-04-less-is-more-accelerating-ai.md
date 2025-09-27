@@ -13,7 +13,7 @@ tags:
 
 Last mont, I had the chance to attend a talk at the Barcelona Supercomputing Center (BSC), where NVIDIA researchers Nadine Change and José M. Álvarez presented their work on **data-centric strategies for accelerating AI**.
 
-The session, title [***"Less is More: Accelerating AI with Advanced Data Strategies"***](https://youtu.be/Yrxa6eeQXx8?si=zoowDsMtfxI64yFZ), touched on something that feels increasingly urgent in today's AI landscape: the recognition that **bigger datasets and larges models aren't always the optimal path forward**. Instead, the researchers argued, we can achieve *more with less*, if we learn to be smarter about how data is curated, filtered, and fed into training pipelines.
+The session, title <a href="https://youtu.be/Yrxa6eeQXx8?si=zoowDsMtfxI64yFZ" target="_blank"><strong><em>"Less is More: Accelerating AI with Advanced Data Strategies"</em></strong></a>, touched on something that feels increasingly urgent in today's AI landscape: the recognition that **bigger datasets and larges models aren't always the optimal path forward**. Instead, the researchers argued, we can achieve *more with less*, if we learn to be smarter about how data is curated, filtered, and fed into training pipelines.
 
 ## Setting the Stage
 
