@@ -16,7 +16,7 @@ In the last few years, **Generative AI** has gone from niche experiment to every
 
 The idea sounds perfect: detect AI-generated text, catch cheaters, and protect academic integrity. But just like any security measure, detection is only as strong as its weakest link.
 
-Last year the paper <a href="https://link.springer.com/content/pdf/10.1186/s41239-024-00487-w.pdf" target="_blank"><em><strong>"Simple techniques to bypass GenAI text detectors: implications for inclusive education"</em></strong></a> tested this assumption. The results show that simple, non-technical tweaks can drastically reduce detector accuracy, and that the unintended consequences may hurt inclusivity more than they protect fairness.
+Last year the paper <a href="https://link.springer.com/content/pdf/10.1186/s41239-024-00487-w.pdf" target="_blank"><em><strong>"Simple techniques to bypass GenAI text detectors: implications for inclusive education"</strong></em></a> tested this assumption. The results show that simple, non-technical tweaks can drastically reduce detector accuracy, and that the unintended consequences may hurt inclusivity more than they protect fairness.
 
 ## How AI Text Detectors Work
 
