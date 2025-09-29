@@ -16,7 +16,7 @@ I recently came across a paper titled <a href="https://arxiv.org/pdf/2507.18074"
 
 Not because I’ve worked on neural architecture search before, but because the **core strategy used in the paper — evolution instead of gradient descent — was almost exactly what I explored in my** <a href="https://josep-audenis.github.io/portfolio/neuroevolutions/" target="_blank"><strong>Neuroevolutions project</strong></a>.
 
-Sure, the scale and goal are different. They’re evolving architectures for image and language models; I evolved policies to solve reinforcement learning environments. But underneath both is the same idea:
+Sure, the scale and goal are different. They’re evolving architectures for image and language models, I evolved policies to solve reinforcement learning environments. But underneath both is the same idea:
 
 > **Don’t optimize by gradients. Let evolution guide the search.**
 

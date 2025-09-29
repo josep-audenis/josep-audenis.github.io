@@ -9,7 +9,7 @@ tags:
     - AI Safety
 ---
 
-If you've ever used a large language model and gotten a confident but wrong answer, you've witnessed a *hallucination*. These aren't just quirks; they're systematic. Even the latest models still do it, sometimes hilariously ("there are 3 D's in DEEPSEEK") and sometimes alarmingly (fabricating citations or medical facts).
+If you've ever used a large language model and gotten a confident but wrong answer, you've witnessed a *hallucination*. These aren't just quirks, they're systematic. Even the latest models still do it, sometimes hilariously ("there are 3 D's in DEEPSEEK") and sometimes alarmingly (fabricating citations or medical facts).
 
 A new paper, <a href="https://arxiv.org/pdf/2509.04664" target="_blank"><strong><em>"Why Language Models Hallucinate"</em></strong></a>, argues that hallucinations aren't mysterious. They're baked into the math of how we train and evaluate language models. The authors show that *current pipelines reward guessing over uncertainty*, making hallucinations a predictable outcome.
 
@@ -46,7 +46,7 @@ They also extend earlier work to show that hallucination rates track the *single
 - **Poor models**: When the model architecture can't represent a concept well (e.g., counting letters when tokenization splits words), it misclassifies and hallucinates.  
 - **Garbage In, Garbage Out (GIGO)**: Even base models trained on massive corpora replicate factual errors embedded in the data.  
 
-These aren't quirks of Transformers or next-word prediction; they're fundamental to *density estimation* itself.
+These aren't quirks of Transformers or next-word prediction, they're fundamental to *density estimation* itself.
 
 
 ## Why Post-Training Makes It Worse
@@ -66,7 +66,7 @@ A core argument of the paper is that hallucinations persist not because we lack 
 
 They propose adding **explicit confidence targets** to evaluations. For example:
 
-> "Answer only if you are >75% confident. Mistakes are penalized 2 points; ‘I don't know' earns 0 points."
+> "Answer only if you are >75% confident. Mistakes are penalized 2 points, ‘I don't know' earns 0 points."
 
 This mimics real-world settings (like old SAT or GRE scoring) where guessing is risky unless you're sure. Models trained and evaluated under these conditions would have an incentive to express uncertainty rather than bluff.
 
@@ -81,7 +81,7 @@ This paper reframes hallucination as a **statistical inevitability under current
 - **Post-training pipelines reward overconfidence**, turning "I don't know" into a losing strategy.  
 - **Evaluation changes could realign incentives**, making it easier for post-training to reduce hallucinations instead of reinforcing them.  
 
-The upshot? Hallucinations aren't a mysterious property of neural networks; they're a predictable consequence of how we train and grade them.
+The upshot? Hallucinations aren't a mysterious property of neural networks, they're a predictable consequence of how we train and grade them.
 
 
 ## My Takeaway  

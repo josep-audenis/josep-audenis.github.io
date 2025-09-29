@@ -23,14 +23,14 @@ This historical perspective shows that the field of ML didn't emerge overnight. 
 
 The book also introduces a handful of fundamental algorithms that are still widely used today. It's incredible to see how these foundational methods have stood the test of time, forming the backbone of modern AI systems. Learning about these basics, like what the Perceptron is or how a simple linear model learns from data, has given me a sense of confidence that I never expected to have at this early stage.
 
-If you're like me and you've always been curious about ML but unsure where to begin, here's what I've learned: Start with a resource that emphasizes the "*why*" as much as the "*how*", and *Why Machines Learn* does exactly that. It makes it clear that you don't need to be a math genius to understand these ideas; you just need curiosity and the willingness to take the first step.
+If you're like me and you've always been curious about ML but unsure where to begin, here's what I've learned: Start with a resource that emphasizes the "*why*" as much as the "*how*", and *Why Machines Learn* does exactly that. It makes it clear that you don't need to be a math genius to understand these ideas, you just need curiosity and the willingness to take the first step.
 
 What I'm discovering is that the entry point to ML isn't guarded by impossible gates, theory, or technical jargon. Instead, it's open to anyone who wants to understand how machines learn and why these ideas matter. Sure there's math involved, but it's math with a story, math with a purpose. And that's what makes it feel accessible.
 
-Through this blog, I hope to share my journey as I keep learning, building, and exploring this fascinating field. My goal is to show that AI and ML are not just for the experts or researchers; they are for anyone willing to understand how data can teach machines to see patterns, make decisions, and even create.
+Through this blog, I hope to share my journey as I keep learning, building, and exploring this fascinating field. My goal is to show that AI and ML are not just for the experts or researchers, they are for anyone willing to understand how data can teach machines to see patterns, make decisions, and even create.
 
 
-Through this blog, I hope to share my journey as I keep learning, building, and exploring this fascinating field. My goal is to show that AI and ML are not just for the experts or researchers; they are for anyone willing to understand how data can teach machines to see patterns, make decisions, and even create.
+Through this blog, I hope to share my journey as I keep learning, building, and exploring this fascinating field. My goal is to show that AI and ML are not just for the experts or researchers, they are for anyone willing to understand how data can teach machines to see patterns, make decisions, and even create.
 
 If you're interested in diving deeper, I highly recommend checking out <a href="https://www.amazon.com/Why-Machines-Learn-Elegant-Behind/dp/0593185749" target="_blank"><em>Why Machines Learn</em></a>. It's a great companion to this blog and offers a comprehensive yet approachable exploration of the topics you'll see on here.
 

@@ -76,7 +76,7 @@ This is already happening in some institutions. For example, "AI Assessment Scal
 
 ## Why This Matters for Inclusion
 
-At its heart, this issue isn't just about cheating; it's about **equity**. Students who can afford premium AI tools and understand prompt engineering will always be ahead in an arms race against detectors. Students who write in English as a second language are more likely to be falsely accused.
+At its heart, this issue isn't just about cheating, it's about **equity**. Students who can afford premium AI tools and understand prompt engineering will always be ahead in an arms race against detectors. Students who write in English as a second language are more likely to be falsely accused.
 
 If we want truly **inclusive education**, we can't rely on brittle, biased tools. Instead, we need to teach students how to use AI responsibly, embed it into coursework transparently, and design assessments that reward understanding over output.
 
