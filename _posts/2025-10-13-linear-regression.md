@@ -1,6 +1,6 @@
 ---
 title: "Linear Regression from Scratch: The Foundation of Machine Learning"
-date: 2025-10-06
+date: 2025-10-13
 permalink: /posts/2025/10/linear-regression/
 excerpt: "Dive into the mathematics and intuition behind Linear Regression, the algorithm that powers prediction, by building it from scratch with gradient descent and feature normalization."
 tags:
