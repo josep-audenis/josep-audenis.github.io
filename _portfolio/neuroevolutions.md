@@ -380,6 +380,6 @@ More broadly, it reinforced the idea that there is no one-size-fits-all in machi
 
 You can explore the full codebases for each task in the following GitHub repositories:
 
-- [CartPole-v1 Neuroevolution](https://github.com/josep-audenis/neuroevolution-cart-pole)
-- [LunarLander-v3 Neuroevolution](https://github.com/josep-audenis/neuroevolution-lunar-lander)
-- [BipedalWalker-v3 Neuroevolution](https://github.com/josep-audenis/neuroevolution-bipedal-walker)
+- <a href="https://github.com/josep-audenis/neuroevolution-cart-pole" target="_blank"><strong><em>CartPole-v1 Neuroevolution</em></strong></a>
+- <a href="https://github.com/josep-audenis/neuroevolution-lunar-lander" target="_blank"><strong><em>LunarLander-v3 Neuroevolution</em></strong></a>
+- <a href="https://github.com/josep-audenis/neuroevolution-bipedal-walker" target="_blank"><strong><em>BipedalWalker-v3 Neuroevolution</em></strong></a>
