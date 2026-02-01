@@ -133,10 +133,8 @@ However, production deployment requires a different mindset. Once I validated th
 ### Model Architecture
 
 ```python
-# Binary classification configuration
 target = (data['Position'] == 1).astype(int)
 
-# Gradient Boosting setup
 model = GradientBoostingClassifier(
     n_estimators=100,
     max_depth=5,
@@ -144,7 +142,6 @@ model = GradientBoostingClassifier(
     random_state=42
 )
 
-# Train on 100% of data for production
 model.fit(X, y)
 ```
 
@@ -188,7 +185,6 @@ Model selection happens automatically based on temporal context. When a predicti
 
 ```python
 def is_quali_done(self, quali_datetime) -> bool:
-    """Determine if qualifying has occurred"""
     now = datetime.now(timezone.utc)
     return now >= quali_datetime
 ```
@@ -223,7 +219,6 @@ The API exposes thirteen endpoints organized into four functional categories:
 **Timezone Handling**: FastF1 returns pandas Timestamp objects with timezone information, while I initially used timezone-naive Python datetime objects. This caused subtle bugs in qualifying status checks. The solution involved ensuring all datetime objects carried explicit timezone information:
 
 ```python
-# Convert pandas Timestamp to timezone-aware datetime
 if isinstance(race_time, pd.Timestamp):
     race_time = race_time.to_pydatetime()
 
@@ -235,7 +230,6 @@ if race_time.tzinfo is None:
 
 ```python
 def normalize_gp_name(name: str) -> str:
-    """Normalize Grand Prix names for matching"""
     return name.replace("Grand Prix", "").strip()
 ```
 
