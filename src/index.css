@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --background: 222 22% 7%;
+  --foreground: 210 24% 96%;
+  --card: 222 20% 10%;
+  --card-foreground: 210 24% 96%;
+  --primary: 210 24% 96%;
+  --primary-foreground: 222 22% 7%;
+  --muted: 222 18% 14%;
+  --muted-foreground: 218 12% 70%;
+  --accent: 174 34% 22%;
+  --accent-foreground: 174 42% 88%;
+  --border: 222 16% 22%;
+  --input: 222 16% 22%;
+  --ring: 174 46% 52%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 16% 12%, hsl(174 46% 18% / 0.45), transparent 28rem),
+    radial-gradient(circle at 88% 20%, hsl(266 34% 16% / 0.42), transparent 26rem),
+    hsl(var(--background));
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  text-rendering: geometricPrecision;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+.slide-section {
+  min-height: 100svh;
+  height: 100svh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-content {
+  max-height: calc(100svh - 7rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  animation: slide-enter 760ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+::selection {
+  background: hsl(var(--foreground));
+  color: hsl(var(--background));
+}
+
+@keyframes word-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+    filter: blur(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.animate-word-reveal {
+  animation: word-reveal 640ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes list-scroll {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-list-scroll {
+  animation: list-scroll 18s linear infinite;
+}
+
+@keyframes slide-enter {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.985);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-height: 760px) {
+  .slide-section {
+    align-items: flex-start;
+    padding-block: 5rem 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .slide-section {
+    align-items: flex-start;
+    padding-block: 4rem 2rem;
+  }
+}
