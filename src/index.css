@@ -165,6 +165,20 @@ body {
   mask-composite: intersect;
 }
 
+.experience-card {
+  transition:
+    transform 420ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 420ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.experience-card:hover {
+  transform: translateX(8px);
+  border-color: hsl(var(--ring) / 0.55);
+  box-shadow: 0 28px 70px -48px hsl(var(--ring) / 0.9);
+}
+
+
 @keyframes slide-enter {
   from {
     opacity: 0;

@@ -15,7 +15,7 @@ const links = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com",
+    href: "https://www.linkedin.com/in/josepaudenis/",
     description: "Professional background, updates, and network context.",
     icon: Linkedin,
   },
@@ -46,6 +46,12 @@ export function Contact() {
               <a
                 key={link.label}
                 href={link.href}
+                target={link.href.startsWith("http") ? "_blank" : undefined}
+                rel={
+                  link.href.startsWith("http")
+                    ? "noreferrer noopener"
+                    : undefined
+                }
                 className="contact-card group flex min-h-28 flex-col justify-between rounded-lg border border-border bg-card px-6 py-5"
               >
                 <span className="flex items-center justify-between gap-4 text-lg font-semibold">

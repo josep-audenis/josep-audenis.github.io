@@ -9,7 +9,7 @@ export function Hero() {
     >
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,hsl(var(--border))_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border))_1px,transparent_1px)] bg-[size:72px_72px] opacity-25" />
       <div className="absolute left-1/2 top-12 -z-10 h-80 w-80 -translate-x-1/2 rounded-full bg-accent/35 blur-3xl" />
-      <div className="slide-content mx-auto grid w-full max-w-6xl items-center gap-8 lg:grid-cols-[0.74fr_1.26fr]">
+      <div className="slide-content mx-auto grid w-full max-w-7xl items-center gap-8 lg:grid-cols-[0.74fr_1.26fr]">
         <div className="max-w-4xl">
           <p className="text-sm font-medium uppercase tracking-[0.28em] text-accent-foreground">
             Hi, I'm
@@ -21,21 +21,9 @@ export function Hero() {
             I work on AI, optimization, algorithms, and data science problems.
           </p>
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-muted-foreground">
-            I care most about the technical core: models, experiments, search,
-            constraints, statistics, and turning rough problem spaces into
-            working systems.
+            I care about technical depth: experiments, search, constraints,
+            statistics, and systems that work.
           </p>
-          <div className="mt-10 flex flex-wrap gap-3 text-sm text-muted-foreground">
-            <span className="rounded-full border border-border bg-card px-4 py-2">
-              AI systems
-            </span>
-            <span className="rounded-full border border-border bg-card px-4 py-2">
-              Optimization
-            </span>
-            <span className="rounded-full border border-border bg-card px-4 py-2">
-              Data science
-            </span>
-          </div>
         </div>
 
         <div className="hero-photo relative hidden min-h-[44rem] w-[152%] -translate-x-2 overflow-hidden lg:block xl:translate-x-4">
