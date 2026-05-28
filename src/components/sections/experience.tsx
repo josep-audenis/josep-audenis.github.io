@@ -1,37 +1,27 @@
 import { CalendarDays, MapPin } from "lucide-react";
-import { AnimatedList } from "../ui/animated-list";
 import { SpotlightCard } from "../ui/spotlight-card";
 
 const roles = [
   {
-    title: "Current Role Placeholder",
-    company: "Company Name",
-    period: "2024 - Present",
-    location: "City / Remote",
+    title: "Data Scientist",
+    company: "Accenture · Data & AI",
+    period: "October 2025 - Present",
+    location: "Barcelona",
     notes: [
-      "Short impact bullet for current responsibilities.",
-      "Another placeholder for scope, systems, or leadership.",
+      "Working on data science and AI problems inside the Data & AI team.",
+      "Focus on models, experimentation, analysis, and technical delivery.",
     ],
   },
   {
-    title: "Previous Role Placeholder",
-    company: "Company Name",
-    period: "2022 - 2024",
-    location: "City / Remote",
+    title: "Quantum Computing Assistant Researcher",
+    company: "La Salle",
+    period: "September 2024 - July 2025",
+    location: "Barcelona",
     notes: [
-      "Short impact bullet for shipped work.",
-      "Another placeholder for collaboration or ownership.",
+      "Supported research work around quantum computing topics and experiments.",
+      "Worked close to algorithmic, mathematical, and computational ideas.",
     ],
   },
-];
-
-const focusAreas = [
-  "Product engineering",
-  "Data systems",
-  "Developer tooling",
-  "Research prototypes",
-  "Frontend architecture",
-  "Automation",
 ];
 
 export function Experience() {
@@ -44,36 +34,38 @@ export function Experience() {
               Experience
             </p>
             <h2 className="mt-4 text-3xl font-semibold tracking-tight sm:text-5xl">
-              Working history, separated from projects.
+              Technical work and research experience.
             </h2>
           </div>
           <p className="max-w-2xl text-lg leading-8 text-muted-foreground">
-            Placeholder timeline for jobs, roles, and professional context.
-            Keep this factual and scannable; use Work for project case studies.
+            Roles focused on data science, AI, optimization, and technical
+            research. Projects and experiments live separately in Work.
           </p>
         </div>
 
-        <div className="grid gap-5 lg:grid-cols-[1.35fr_0.65fr]">
-          <div className="space-y-5">
-            {roles.map((role) => (
-              <SpotlightCard key={role.title} className="p-6">
-                <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
-                  <div>
-                    <h3 className="text-2xl font-semibold">{role.title}</h3>
-                    <p className="mt-2 text-muted-foreground">{role.company}</p>
-                  </div>
-                  <div className="space-y-2 text-sm text-muted-foreground sm:text-right">
-                    <p className="inline-flex items-center gap-2">
-                      <CalendarDays size={16} aria-hidden="true" />
-                      {role.period}
-                    </p>
-                    <p className="flex items-center gap-2 sm:justify-end">
-                      <MapPin size={16} aria-hidden="true" />
-                      {role.location}
-                    </p>
-                  </div>
+        <div className="grid gap-5 md:grid-cols-2">
+          {roles.map((role) => (
+            <SpotlightCard key={role.title} className="p-7">
+              <div className="flex min-h-72 flex-col justify-between gap-8">
+                <div>
+                  <h3 className="text-3xl font-semibold tracking-tight">
+                    {role.title}
+                  </h3>
+                  <p className="mt-3 text-lg text-muted-foreground">
+                    {role.company}
+                  </p>
                 </div>
-                <ul className="mt-6 space-y-3 text-sm leading-6 text-muted-foreground">
+                <div className="space-y-3 text-sm text-muted-foreground">
+                  <p className="inline-flex items-center gap-2">
+                    <CalendarDays size={16} aria-hidden="true" />
+                    {role.period}
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <MapPin size={16} aria-hidden="true" />
+                    {role.location}
+                  </p>
+                </div>
+                <ul className="space-y-3 text-sm leading-6 text-muted-foreground">
                   {role.notes.map((note) => (
                     <li key={note} className="flex gap-3">
                       <span className="mt-2 h-1.5 w-1.5 rounded-full bg-primary" />
@@ -81,10 +73,9 @@ export function Experience() {
                     </li>
                   ))}
                 </ul>
-              </SpotlightCard>
-            ))}
-          </div>
-          <AnimatedList items={focusAreas} className="lg:sticky lg:top-28" />
+              </div>
+            </SpotlightCard>
+          ))}
         </div>
       </div>
     </section>
